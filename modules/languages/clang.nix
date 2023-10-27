@@ -43,7 +43,7 @@ in
         https://www.reddit.com/r/neovim/comments/orfpcd/question_does_the_c_parser_from_nvimtreesitter/
       '';
       type = types.bool;
-      default = false;
+      default = true;
     };
 
     treesitter = {

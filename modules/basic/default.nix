@@ -204,8 +204,8 @@ in
         set clipboard+=unnamedplus
       ''}
       ${optionalString cfg.mapLeaderSpace ''
-        let mapleader=" "
-        let maplocalleader=" "
+        let mapleader="\\"
+        let maplocalleader="\\"
       ''}
       ${optionalString cfg.syntaxHighlighting ''
         syntax on

@@ -263,7 +263,7 @@
               nix.enable = overrideable true;
               markdown.enable = overrideable true;
               html.enable = overrideable isMaximal;
-              clang.enable = overrideable isMaximal;
+              clang.enable = overrideable true;
               sql.enable = overrideable isMaximal;
               rust = {
                 enable = overrideable isMaximal;

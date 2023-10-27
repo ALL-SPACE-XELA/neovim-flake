@@ -111,6 +111,7 @@ in
       # https://github.com/NixOS/nixpkgs/pull/227159
       treeSitterPlug = pkgs.vimPlugins.nvim-treesitter.withPlugins (p: config.vim.treesitter.grammars ++ [
         p.c
+        p.cpp
         p.lua
         p.vim
         p.vimdoc
